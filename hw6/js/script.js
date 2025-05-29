@@ -1,6 +1,6 @@
 const username = 'Bob Lazar';
 let age = 20;
-isVerified = true;
+let isVerified = true;
 const registrationDate = new Date();
 const cardNumber = +Math.random().toString().replace('.', '');
 let promoCode = Math.round(Math.random() * 1) ? `PROM${Math.round(Math.random() * 10)}` : null;
