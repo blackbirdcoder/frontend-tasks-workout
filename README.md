@@ -1,4 +1,27 @@
-# My JavaScript Assignments
+# ДЗ 7. Міні-реєстрація користувача в браузері
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+
+1. **Запитай ім’я користувача** через `prompt` → збережи як `string`
+2. **Запитай вік** через `prompt`, але перетвори його на число → `number`
+3. **Запитай згоду користувача на участь** через `confirm` → `boolean`
+4. Створи змінну `userId` — як велике число → `bigInt `*(наприклад, *`<em>12345678901234567890n</em>`*)*
+5. Створи змінну `bonusCode`, значення якої буде `null`
+6. Створи змінну `secondName`, яка залишиться `undefined`
+
+
+**Після збору даних:**
+
+* Виведи `alert` з результатом:
+
+```bash
+Привіт, [ім’я]!
+Твій вік: [вік]
+Твій статус: [участь підтверджено / відмовився]
+```
+
+* Виведи в `console.log()` всі змінні  **разом із їх типами** :
+
+```bash
+console.log("Ім'я:", userName, typeof userName);
+console.log("Вік:", userAge, typeof userAge);
+```
