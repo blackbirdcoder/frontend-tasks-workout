@@ -1,4 +1,8 @@
-# My JavaScript Assignments
+# ДЗ 4. Hello user
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+Треба реалізувати просту програму з наступними умовами:
+
+* За допомогою prompt запитати ім'я користувача.
+* За допомогою alert вивести "Hello, John! How are you?" , де John це те, що ввів користувач
+
+**Дз здавати окремою гілкою в Git**
