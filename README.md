@@ -1,4 +1,10 @@
-# My JavaScript Assignments
+# ДЗ 5. User interaction
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+Зробіть просту сторінку, де при завантаженні користувача просять ввести ім’я та підтвердити, чи хоче він бачити привітання. Відповідно до відповіді — виводьте alert() або нічого не робіть.
+
+Для виконання ДЗ треба використовувати
+
+1. alert
+2. confirm
+3. prompt
+4. змінні (є в файлах до уроку)
