@@ -1,10 +1,10 @@
 'use strict';
 
-function buildUserSession() {
+function blankUserSessionModel() {
     return {
+        userId: null,
         username: null,
         age: null,
-        userId: BigInt(Date.now()),
         lastLogin: null,
         nickname: undefined,
         favoriteTech: [],
@@ -16,17 +16,19 @@ function buildUserSession() {
     };
 }
 
-function registration(user) {
-    user.username = prompt('Enter your name: ');
-    user.age = prompt('Enter your age: ');
-    if (confirm('Do you want notification ?')) user.settings.notification = true;
-    user.nickname = prompt('Enter your nickname: ');
-    for (let i = 0; i < 3; i++) user.favoriteTech[i] = prompt(`I like Tech ${i + 1}: `);
-    user.settings.theme = confirm('Select theme light color ?') ? 'light' : 'dark';
+function registration(cbCreateSessionBlank) {
+    const session = cbCreateSessionBlank();
+    session.userId =  BigInt(Date.now());
+    session.username = prompt('Enter your name: ');
+    session.age = prompt('Enter your age: ');
+    if (confirm('Do you want notification ?')) session.settings.notification = true;
+    session.nickname = prompt('Enter your nickname: ');
+    for (let i = 0; i < 3; i++) session.favoriteTech[i] = prompt(`I like Tech ${i + 1}: `);
+    session.settings.theme = confirm('Select theme light color ?') ? 'light' : 'dark';
+    return session;
 }
 
-const session = buildUserSession();
-registration(session);
+const session = registration(blankUserSessionModel);
 
 alert(`Hello ${session.username}! Your ID: ${session.userId}`);
 console.log(session);
