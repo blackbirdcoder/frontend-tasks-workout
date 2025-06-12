@@ -1,4 +1,7 @@
-# My JavaScript Assignments
+# ДЗ 19. Переглянути урок і виконати задачу
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+**Задача**
+
+Напишіть функцію `<strong>greetUser</strong>`, яка приймає один параметр — **ім'я користувача** (рядок),
+
+і повертає рядок виду: **"Привіт, [ІМ'Я]!"**
