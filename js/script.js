@@ -1,3 +1,5 @@
+'use strict';
+
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 
 function generateKey(number, dataset) {
