@@ -1,4 +1,13 @@
-# My JavaScript Assignments
+# ДЗ 20. Реалізуйте функцію generateKey
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+
+Реалізуйте функцію generateKey(length, characters), яка повертає рядок випадкових символів із набору characters довжиною length
+
+Наприклад:
+
+```javascript
+const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+
+const key = generateKey(16, characters);
+console.log(key); // eg599gb60q926j8i
+```
