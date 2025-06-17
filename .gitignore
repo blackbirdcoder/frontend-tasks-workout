@@ -85,6 +85,3 @@ jspm_packages/
 
 # Lerna
 lerna-debug.log
-
-# Bash script
-create.sh
