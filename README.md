@@ -1,4 +1,12 @@
-# My JavaScript Assignments
+# ДЗ 23. Реалізуйте функцію removeElement
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+
+Реалізуйте функцію removeElement(array, item), щоб видалити елемент item з масиву array.
+
+Наприклад:
+```javascript
+const array = [1, 2, 3, 4, 5, 6, 7];
+removeElement(array, 5 );
+console.log(array);
+// Результат: [1, 2, 3, 4, 6, 7]
+```
