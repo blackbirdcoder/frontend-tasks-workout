@@ -1,4 +1,7 @@
-# My JavaScript Assignments
+# ДЗ 25. Написати функції
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+
+1. Ваша функція повинна працювати аналогічно методу [array.shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+2. Ваша наступна функція повинна працювати аналогічно методу [array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
+В ДЗ заборонено використовувти методи масивів
