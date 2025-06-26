@@ -1,8 +1,5 @@
-# ДЗ 29. Рахунки користувачів
+'use strict';
 
-Дан масив об'єктів. Вивести масив телефонних номерів користувачів, у яких баланс більше 2000 доларів. І знайти суму всіх балансів користувачів
-
-```javascript
 let users = [
     {
         index: 0,
@@ -59,4 +56,24 @@ let users = [
         address: '314 Dunne Place, Bawcomville, Guam, 9053',
     },
 ];
-```
+
+function balanceExtractor(srh, dataset) {
+    const report = {
+        phones: [],
+        sum: 0,
+    };
+    for (const data of dataset) {
+        const cent = Number(data.balance?.replace(/\$|\,|\./g, ''));
+        if (cent >= srh) {
+            report.sum += cent;
+            report.phones.push(data.phone);
+            continue;
+        }
+    }
+    report.sum /= 100;
+
+    return report;
+}
+
+const rich = balanceExtractor(200000, users);
+console.log(rich);
