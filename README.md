@@ -1,4 +1,8 @@
-# My JavaScript Assignments
+# ДЗ 31. Написати свою реалізацію функції bind і apply
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+
+Написати свою реалізацію функції apply
+
+Написати свою реалізацію функції bind
+
+При реалізації фунції bind заборонено використовувати методи call та apply
