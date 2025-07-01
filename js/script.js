@@ -18,3 +18,18 @@ const staff = {
 };
 
 customApply(staff, getValue, 1, 2);
+
+// task custom bind
+
+const customBind = function (obj, fn, ...arg) {
+    const env = obj;
+    return function () {
+        env.f = fn;
+        env.f(...arg);
+        delete env.f;
+    };
+};
+
+const b = customBind(staff, getValue, 1, 2);
+console.log(b);
+b();
