@@ -1,8 +1,0 @@
-#!/bin/bash
-rm .gitignore;
-rm README.md;
-mkdir css js;
-touch README.md index.html;
-touch css/style.css js/script.js;
-echo "'use strict';" >> js/script.js;
-tree;
