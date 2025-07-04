@@ -1,4 +1,15 @@
-# My JavaScript Assignments
+# ДЗ 33. Тоглити тему сайту
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+Є кнопка з текстом «Змінити тему». При кліку на неї сайт має перемикатися між світлою і темною темою (додається/видаляється клас `dark-theme` до `<body>`).
+
+```javascript
+<button id="toggle-theme">Змінити тему</button>
+```
+
+1. Знайти кнопку
+2. Повісити обробник події `click`
+3. Додати/зняти клас `dark-theme` з `<body>`
+
+Написати свої стилі для темної теми
+
+Використовувати тільки addEventListener
