@@ -1,4 +1,5 @@
-# My JavaScript Assignments
+# ДЗ 35. Дописати телефонну книгу
 
-Hello world! this is a place for tasks on the basics of frontend,
-a place for JavaScript
+Потрібно додати функціонал виводу юзера в список і видалення юзера
+
+Також спробуйте додати роботу з localStorage
