@@ -1,11 +1,9 @@
-# ДЗ 28. Хойстинг (Hoisting) та області видимості (Scope)
+# HW 28. Hoisting and Scope
+Write a function that demonstrates the difference between declaring variables using var, let, and const inside and outside a loop.
 
+Task:
 
-Напиши функцію, яка демонструє різницю між оголошенням змінних через `var`, `let` та `const` у циклі та поза ним.
-
-**Завдання:**
-
-* Створи цикл `for`, всередині якого оголоси змінну з допомогою `var`, а також іншу з допомогою `let`.
-* Після завершення циклу спробуй вивести обидві змінні в консоль.
-* Додай також ще одну змінну `const`, і спробуй вивести її як всередині циклу, так і зовні.
-* Поясни, що відбувається з хойстингом та областю видимості кожної змінної.
+Create a for loop, inside which you declare a variable using var, and another using let.
+After the loop is finished, try to print both variables to the console.
+Also add another const variable, and try to print it both inside and outside the loop.
+Explain what happens with hoisting and the scope of each variable.
