@@ -1,23 +1,19 @@
-# ДЗ 15. Виконувати третім: Портрет користувача
+# HW 15. Perform third: User portrait
+Part #1
 
+Create a script that should perform the following:
 
-**Частина №1**
+ask the user for his year of birth;
+ask him in which city he lives;
+ask him for his favorite sport.
+When clicking OK, we show a window where the following information should be displayed:
 
-Створити скрипт яки повинен виконувати наступне:
+his age;
+if the user indicates Kyiv, Washington or London, then show him the message - "You live in the capital..." and in place of the dots we substitute the country whose capital is the city. Otherwise, we show him "you live in the city...", where the dots are the entered city.
+Part #2
 
-* запитати у користувача рік народження;
-* запитати в нього, в якому місті він живе;
-* запитати його улюблений вид спорту.
+We choose three sports and three champions in these sports. Accordingly, if the user indicates one of these sports, we show him the message “Cool! Do you want to become …? and substitute the first and last name of the champion in place of the dots.
 
-При натисканні на ОК показуємо вікно, де має бути відображена наступна інформація:
+All this should be displayed in one window (alert).
 
-* його вік;
-* якщо користувач вкаже Київ, Вашингтон чи Лондон, то показати йому повідомлення - "Ти живеш у столиці..." і на місце точок підставляємо країну, столицею якої є місто. Інакше показуємо йому “ти живеш у місті…”, де місце точок – введене місто.
-
-**Частина №2**
-
-Вибираємо самі три види спорту та три чемпіони у цих видах. Відповідно, якщо користувач вкаже один із цих видів спорту, то показуємо йому повідомлення “Круто! Хочеш стати …? і підставляємо на місце точок ім'я та прізвище чемпіона.
-
-Все це має бути відображено в одному вікні (алерті).
-
-Якщо в якомусь випадку він не захоче вводити інформацію і натисне Скасувати, показати йому повідомлення – “Шкода, що Ви не захотіли ввести свій(ю) …” і вказуємо, що він не захотів вводити – дату народження, місто чи вид спорту .
+If in some case he does not want to enter information and clicks Cancel, show him the message – “It’s a pity that you did not want to enter your …” and indicate that he did not want to enter – date of birth, city or sport.
