@@ -1,10 +1,8 @@
-#ДЗ 32. findValuesByKey
+# HW 32. findValuesByKey
 
-Напишіть функцію findValuesByKey(obj, targetKey), яка:
+Write a function findValuesByKey(obj, targetKey) that:
 
-Приймає довільний вкладений об'єкт obj.
-Повертає масив усіх значень, що відповідають ключу targetKey (ключ може з’являтися на будь-якому рівні вкладеності, й кілька разів).
-
+Takes an arbitrary nested object obj. Returns an array of all values that match the key targetKey (the key can appear at any level of nesting, and multiple times).
 ```javascript
 const data = {
 id: 1,
