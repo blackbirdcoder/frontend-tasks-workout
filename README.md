@@ -1,7 +1,5 @@
-# ДЗ 14. Виконувати другим: Середнє значення
+# Hw 14. Execute second: Average
+Create a script that should determine the arithmetic mean of three numbers with the following conditions:
 
-
-Створити скрипт який має визначити середнє арифметичне трьох чисел з насутпними умовами:
-
-* отримати від користувача через три prompt три числа
-* показати через alert середнє арифметичне цих чисел
+receive three numbers from the user via three prompts
+display the arithmetic mean of these numbers via alert
