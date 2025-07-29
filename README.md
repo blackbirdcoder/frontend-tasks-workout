@@ -1,32 +1,34 @@
-# ДЗ 11. Особиста інформація + сесія в браузері
+# HW 11. Personal information + browser session
 
+Create a program that:
 
-Створи програму, яка:
+1. Receives **user input** via `prompt` and `confirm`
 
-1. Отримує **введення від користувача** через `prompt` та `confirm`
-2. Створює **об’єкт** `session`, що містить всю зібрану інформацію
-3. Має вкладений об’єкт і масив
-4. Використовує всі типи даних
+2. Creates a **object** `session` containing all the collected information
 
-## Кроки:
+3. Has a nested object and an array
 
-**Збір даних через браузер:**
+4. Uses all data types
 
-* Запитай ім’я (`prompt`) → `string`
-* Запитай вік → `number` (перетвори з рядка)
-* Запитай, чи користувач хоче отримувати сповіщення (`confirm`) → `boolean`
-* Створи фіктивний `userId` як `bigInt` (можеш просто записати вручну `1234567890123456789n`)
-* Встанови поле `lastLogin` як `null`
-* Створи поле `nickname`, але не задавай значення (залиш `undefined`)
-* Додай масив `favoriteTech` із трьох технологій (будь-яких)
-* Додай вкладений об’єкт `settings` з полями:
-* `theme`: "dark" або "light"
+## Steps:
+
+**Collecting data via browser:**
+
+* Ask for name (`prompt`) → `string`
+* Ask for age → `number` (convert from string)
+* Ask if the user wants to receive notifications (`confirm`) → `boolean`
+* Create a dummy `userId` as `bigInt` (you can just write it manually `1234567890123456789n`)
+* Set the `lastLogin` field to `null`
+* Create a `nickname` field, but don't set a value (leave it `undefined`)
+* Add an array `favoriteTech` of three technologies (any)
+* Add a nested `settings` object with the following fields:
+* `theme`: "dark" or "light"
 * `autoLogin`: `false`
 
-**Створи об’єкт session, який міститиме всі ці дані.**
+**Create a session object that will contain all this data.**
 
-**Виведи:**
+**Output:**
 
-* `alert` з короткою інформацією: "Привіт, [ім’я]! Ваш ID: [userId]"
-* У `console.log` — весь обʼєкт
-* У `console.log` — тип кожного поля (через `typeof`)
+* `alert` with a short message: "Hello, [name]! Your ID is [userId]"
+* In `console.log` — the entire object
+* In `console.log` — the type of each field (via `typeof`)
