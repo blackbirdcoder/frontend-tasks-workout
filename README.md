@@ -1,33 +1,24 @@
-# Вам нужно реализовать 3 страницы
+# You need to implement 3 pages
+Page - form for creating a product (Name, description, price)
 
-Страница - форма из для создания товара (Название, описание, цена)
+Page - Table of created products (id, name, price, delete button, edit button)
 
+Product edit page - the same as creation, only when saving, the created product should be edited, not created
 
-Страница – Таблица созданных товаров (id, название, цена, кнопка удаления, кнопка редактирования)
+Pages can have separate script files and be separated from each other
 
+Data transfer between pages should occur through localStorage
 
-Страница редактирования товара - такая же как и создание, только при сохранении должно происходить редактирование созданного товара, а не создание
+In localStorage, you will have 2 data items
 
+Array of product objects
 
-Страницы могут иметь отдельные файлы скриптов и быть отделены друг от друга
+The selectedProductID field - where the id of the selected product will be stored for the edit product page. On the product creation page, there should be a check of inputs for correct input,
 
+when clicking the create button, the data should first be written to localStorage and only then redirect the user to the product list page
 
-Передача данных между страницами должна происходить через localStorage
+On the product list page, display a list of products, the newest ones on top.
 
-В localStorage у вас будет 2 айтема данных
+When you click on the Edit button of a specific product in the product table, you need to write the product ID to the selectedProductID field in localStorage and then open the product edit page.
 
-Массив объектов товаров
-
-Поле selectedProductID – где будет храниться id выбранного товара для страницы edit товара.
-На странице создания товара, должна быть проверка inputs на правильность ввода,
-
- при нажатии на кнопку create данные должны сначала записаться в localStorage и только потом производить перенаправлять пользователя на страницу списка товаров
-
-
-На странице списка товаров отображать список товаров, самые новые сверху.
-
-
-При нажатии на кнопку Edit определенного товара в таблице товаров нужно записывать в localStorage в поле selectedProductID ид товара на нажавшем и затем открывать страницу редактирования товара.
-
-
-Для верстки использовать bootstrap, не надо заморачиваться, интерфейс может быть прост, и просто реализовывать то, что описано выше.
+Use bootstrap for layout, no need to bother, the interface can be simple, and just implement what is described above.
