@@ -1,6 +1,6 @@
-# ДЗ 29. Рахунки користувачів
+# HW 29. User Accounts
 
-Дан масив об'єктів. Вивести масив телефонних номерів користувачів, у яких баланс більше 2000 доларів. І знайти суму всіх балансів користувачів
+Given an array of objects. Output an array of phone numbers of users whose balance is more than 2000 dollars. And find the sum of all user balances
 
 ```javascript
 let users = [
