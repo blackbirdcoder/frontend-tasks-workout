@@ -1,8 +1,7 @@
-# ДЗ 24. Написати декілька функцій
+# HW 24. Write several functions
+This DZ consists of four small tasks, for the implementation of each of them you can get 25 points:
 
-Ця дз складається з чотирьох невеликих завдань, за реалізацію кожної з них можна отримати 25 балів:
-
-1. Дано масив з елементами різних типів. Створити функцію яка вираховує середнє арифметичне лише числових елементів даного масиву.
-2. Написати функцію doMath(x, znak, y), яка отримує 3 аргументи: числа x і y, рядок znak. У змінній znak може бути: +, -, \*, /, %, ^ (ступінь ).Вивести результат математичної дії, вказаної в змінній znak.Обидва числа і знак виходять від користувача.
-3. Написати функцію заповнення даними користувача двомірного масиву. Довжину основного масиву і внутрішніх масивів задає користувач. Значення всіх елементів всіх масивів задає користувач.
-4. Створити функцію, яка прибирає з рядка всі символи, які ми передали другим аргументом. 'func(" hello world", ['l', 'd'])' поверне нам "heo wor". Вихідний рядок та символи для видалення задає користувач.
+Given an array with elements of different types. Create a function that calculates the arithmetic mean of only the numerical elements of this array.
+Write a function doMath(x, znak, y), which receives 3 arguments: the numbers x and y, the string znak. The variable znak can contain: +, -, *, /, %, ^ (degree ). Display the result of the mathematical operation specified in the variable znak. Both numbers and the sign come from the user.
+Write a function to fill a two-dimensional array with user data. The length of the main array and internal arrays is specified by the user. The value of all elements of all arrays is specified by the user.
+Create a function that removes from the string all the characters that we passed in the second argument. 'func(" hello world", ['l', 'd'])' will return "heo wor". The source string and characters to be removed are specified by the user.
