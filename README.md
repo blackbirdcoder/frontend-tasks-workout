@@ -1,7 +1,4 @@
-# ДЗ 25. Написати функції
-
-
-1. Ваша функція повинна працювати аналогічно методу [array.shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
-2. Ваша наступна функція повинна працювати аналогічно методу [array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-
-В ДЗ заборонено використовувти методи масивів
+#HW 25. Write functions
+Your function should work similarly to the array.shift method
+Your next function should work similarly to the array.reverse method
+In DZ it is forbidden to use array methods
