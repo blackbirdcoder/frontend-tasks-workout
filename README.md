@@ -1,9 +1,5 @@
-# ДЗ 20. Реалізуйте функцію generateKey
-
-
-Реалізуйте функцію generateKey(length, characters), яка повертає рядок випадкових символів із набору characters довжиною length
-
-Наприклад:
+# HW 20. Implement the generateKey function
+Implement the generateKey(length, characters) function, which returns a string of random characters from the set characters of length length
 
 ```javascript
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
