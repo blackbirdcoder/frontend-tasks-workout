@@ -1,12 +1,10 @@
-# ДЗ 17. Складніші цикли
+# HW 17. More complex loops
+Don't forget to use ternary operators, if necessary
 
+Write loops that do the following:
 
-**Не забувайте використовувати тернарні оператори, за потреби**
-
-Написати цикли, які роблять наступне:
-
-1. Вивести числа від 20 до 30 через пропуск, використовуючи крок 0,5 (20 20,5 21 21,5….).
-2. Один долар коштує 27 гривень. Вивести дані з розрахунком вартості 10, 20, 30... 100 доларів.
-3. Дане ціле число. Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N.
-4. Дане ціле число. З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе).
-5. Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна).
+Output the numbers from 20 to 30 through a gap, using a step of 0.5 (20 20.5 21 21.5….).
+One dollar costs 27 hryvnias. Output the data with the calculation of the cost of 10, 20, 30... 100 dollars.
+Given an integer. Output all integers from 1 to 100 whose square does not exceed the number N.
+Given an integer. Find out if it is prime (a prime number is a number greater than 1 that has no other divisors than 1 and itself).
+Given a certain number. Determine whether this number can be obtained by raising the number 3 to a certain power. (For example, the numbers 9, 81 can be obtained, but 13 cannot).
