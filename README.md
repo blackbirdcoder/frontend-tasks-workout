@@ -1,8 +1,8 @@
-# ДЗ 13. Години в секунди
+# HW 13. Hours to seconds
 
-Напишіть скрипт, який переводить години в секунди і має робити насутпне:
+Write a script that converts hours to seconds and should do the following:
 
--   запитати у користувача кількість годин;
--   порахувати, скільки секунд у цій кількості годин;
--   записати обчислене значення у змінну;
--   вивести цю змінну користувачеві через alert.
+- ask the user for the number of hours;
+- count how many seconds are in this number of hours;
+- write the calculated value to a variable;
+- display this variable to the user via alert.
