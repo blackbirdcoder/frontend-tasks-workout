@@ -1,7 +1,6 @@
-# ДЗ 19. Переглянути урок і виконати задачу
+# WH 19. View the lesson and complete the task
+Task
 
-**Задача**
+Write a function greetUser that takes one parameter — the username (string),
 
-Напишіть функцію `greetUser`, яка приймає один параметр — **ім'я користувача** (рядок),
-
-і повертає рядок виду: **"Привіт, [ІМ'Я]!"**
+and returns a string like this: "Hello, [NAME]!"
