@@ -1,19 +1,21 @@
-# ДЗ 22. Функції V3
+# HW 22. Functions V3
+Given an array of numbers const arr = [1, 2, 3, -1, -2, -3];
 
+You need to write a function that will return a new array containing only positive numbers. To do this:
 
-Даний масив чисел const arr = [1, 2, 3, -1, -2, -3];
-
-Потрібно написати функцію, яка поверне новий масив, що містить лише позитивні числа. Для цього:
-
-* Створюємо функцію з довільною назвою.
-* Функція приймає масив як параметр.
-* В тілі функції створюємо порожній масив (приклад: const exampleArr = []).
-* Якщо масив, переданий як параметр у функцію, є порожнім, то повертаємо відповідне повідомлення.
-* Перебираємо циклом масив, який передано як параметр (використовуємо цикл for).
-* В тілі циклу перевіряємо, чи є поточний елемент позитивним числом чи від'ємним (if).
-* Якщо число позитивне, то додаємо його до раніше створеного масиву за допомогою функції push (приклад exampleArr.push(currentPositiveNumber)).
-* Після виконання циклу перевіряємо масив, який наповнили лише позитивними значеннями.
-* Якщо він не є порожнім, то повертаємо цей масив.
-* Якщо він порожній, повертаємо null.
-
-P.S. Можна написати додаткову функцію для перевірки даних (за бажанням).
+Create a function with an arbitrary name.
+The function accepts an array as a parameter.
+In the body of the function, create an empty array (example: const exampleArr = []).
+If the array passed as a parameter to the function is empty, then return the appropriate message.
+Loop through the array passed as a parameter (use a for loop).
+In the body of the loop, check whether the current element is a positive or negative number (if).
+If the number is positive, then add it to the previously created array using the push function (example exampleArr.push(currentPositiveNumber)).
+After executing the loop, check the array that was filled with only positive values.
+If it is not empty, then we return this array.
+If it is empty, we return null.
+P.S. You can write an additional function to validate the data (optional).
+Отправить отзыв
+Боковые панели
+История
+Сохраненные
+Дополнительная информация
