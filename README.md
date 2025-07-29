@@ -1,30 +1,25 @@
-# ДЗ 6. Cимулятор користувача для вебдодатку
+# HW 6. User Simulator for a Web Application
+🎯 Requirements: Create at least 8 variables with the appropriate types:
 
-🎯 Умови:
-Створіть не менше 8 змінних з відповідними типами:
+Username (string)
+Age (number)
+Is the user verified? (boolean)
+Registration date (string as date)
+User card number (bigInt)
+Promo code (if any) (null or string)
+Alternate name (undefined)
+Number of bonuses on the account (number)
+Write 3 console.log that use these variables in a connected sentence:
+Example:
 
-* Ім’я користувача (string)
-* Вік (number)
-* Чи верифікований користувач? (boolean)
-* Дата реєстрації (рядок у вигляді дати)
-* Номер картки користувача (bigInt)
-* Промокод (якщо є) (null або string)
-* Резервне ім’я (undefined)
-* Кількість бонусів на рахунку (number)
-* Напишіть 3 console.log, які використовують ці змінні у зв’язному реченні:
+User Ivan, age 28, has bonuses: 250.
 
-**Приклад:**
+Verification: true. Promo code: none.
 
-> Користувач Іван, вік 28, має бонусів: 250.
+For each variable, output typeof to check the data types.
 
-> Верифікація: true. Промокод: немає.
-
-Для **кожної змінної** виведіть `typeof`, щоб перевірити типи даних.
-
-
-### **🧠 Додатково:**
-
-* Використайте **шаблонні рядки** (``Hello ${name}``)
-* Оформіть вивід так, щоб було **читабельно**
-* Коментарями поясніть, що означає кожна змінна
-* Уважно подумайте де повинна бути змінна, а де константа
+🧠 Additionally:
+Use template strings (Hello ${name})
+Make the output readable
+Explain what each variable means with comments
+Think carefully about where a variable should be and where a constant should be
