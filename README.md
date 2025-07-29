@@ -1,5 +1,5 @@
-# ДЗ 35. Дописати телефонну книгу
+# HW 35. Add a phone book
 
-Потрібно додати функціонал виводу юзера в список і видалення юзера
+You need to add the functionality of displaying a user in the list and deleting a user
 
-Також спробуйте додати роботу з localStorage
+Also try to add work with localStorage
