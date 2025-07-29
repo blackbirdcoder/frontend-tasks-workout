@@ -1,8 +1,6 @@
-# ДЗ 31. Написати свою реалізацію функції bind і apply
+# HW 31. Write your own implementation of the bind and apply functions
+Write your own implementation of the apply function
 
+Write your own implementation of the bind function
 
-Написати свою реалізацію функції apply
-
-Написати свою реалізацію функції bind
-
-При реалізації фунції bind заборонено використовувати методи call та apply
+When implementing the bind function, it is forbidden to use the call and apply methods
